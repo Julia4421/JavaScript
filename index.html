@@ -1,0 +1,178 @@
+<html>
+<head>
+<title>15</title>
+<style>
+h1 
+{
+position: relative;
+font-size: 2em;
+letter-spacing: 15px;
+text-transform: uppercase;
+width: 100%;
+color: #fff;
+text-align: center;
+
+line-height: 0.79em;
+outline: none;
+animation: animate 8s linear infinite;
+}
+h2{
+position: relative;
+font-size: 6em;
+letter-spacing: 15px;
+text-transform: uppercase;
+width: 100%;
+color: #fff;
+text-align: center;
+-webkit-box-reflect: below 1px linear-gradient(transparent, #0008);
+line-height: 0.79em;
+outline: none;
+animation: animate 8s linear infinite;
+}
+
+@keyframes animate
+{
+0%18%, 20%, 50.1%, 60%, 65.1%, 80%, 90.1%, 92%
+{
+color: #FD7EAD;
+text-shadow: none;
+}
+18.1%, 20.1%, 30%, 50%, 60.1%, 65%, 80.1%, 90%, 92.1%, 100%
+{
+color: #FD7EAD;
+text-shadow: 0 0 10px FE96BD;
+0 0 20px FE96BD;
+0 0 40px FE96BD;
+0 0 80px FE96BD;
+0 0 160px FE96BD;
+}
+}
+.btn {
+border: 1px solid #FD7EAD;
+background: none;
+padding: 10px 20px;
+font-size: 20px;
+font-family: "montserrat";
+cursor: pointer;
+margin: 10px;
+transition: 0.8s;
+position: relative;
+overflow: hidden;
+}
+
+.btn1{
+color: #FD7EAD;
+}
+
+.btn3{
+color: #fff;
+}
+
+.btn1:hover{
+color: #fff;
+}
+
+.btn3:hover{
+color: #FD7EAD;
+}
+
+.btn::before{
+content: "";
+position: absolute;
+left: 0;
+width: 100%;
+height: 0%;
+background: #FD7EAD;
+z-index: -1;
+transition: 0.8s;
+}
+
+.btn1::before,.btn3::before{
+top: 0;
+border-radius: 0 0 50% 50%;
+}
+
+.btn3::before{
+height: 100%;
+}
+
+.btn1:hover::before{
+height: 100%;
+}
+.btn3:hover::before{
+height: 0%;
+}
+
+#box
+{
+text-align: center;
+padding-top: 200px;
+}
+
+body {
+background: black;
+}
+
+
+</style>
+<script language="JavaScript">
+function WinOpen_Lysik()
+{
+window.open("zadanie2.html","zadanie2","toolbar=no,directories=no,menubar=no,height=100,width=500,top=800,left=100");
+}
+function WinOpen_Lysik2()
+{
+window.open("zadanie3.html","zadanie3","toolbar=no,directories=no,menubar=no,height=100,width=500,top=800,left=100");
+}
+function WinOpen_Lysik4()
+{
+window.open("zadanie4.html","zadanie4","toolbar=no,directories=no,menubar=no,height=100,width=500,top=800,left=100");
+}
+function WinOpen_Lysik5()
+{
+window.open("zadanie5.html","zadanie5","toolbar=no,directories=no,menubar=no,height=100,width=500,top=800,left=100");
+}
+function WinOpen_Lysika()
+{
+window.open("kod2.css","kod2","toolbar=no,directories=no,menubar=no,height=100,width=500,top=800,left=100");
+}
+function WinOpen_Lysikb()
+{
+window.open("kod3.css","kod3","toolbar=no,directories=no,menubar=no,height=100,width=500,top=800,left=100");
+}
+function WinOpen_Lysikc()
+{
+window.open("kod4.css","kod4","toolbar=no,directories=no,menubar=no,height=100,width=500,top=800,left=100");
+}
+function WinOpen_Lysikd()
+{
+window.open("kod5.css","kod5","toolbar=no,directories=no,menubar=no,height=100,width=500,top=800,left=100");
+}
+</script>
+
+</head>
+
+<body>
+<div id="box">
+<div id="header">
+<h1>Ł Y S I K</h1>
+</div>
+
+  <h2>Zadania</h2>
+
+<div class="container">
+<button class="btn btn1" type="button" name="przycis" value="Zadanie 2" onclick="WinOpen_Lysik(' ')">Zadanie 2</button>
+<button class="btn btn1" type="button" name="przycis" value="Zadanie 3" onclick="WinOpen_Lysik2(' ')">Zadanie 3</button>
+<button class="btn btn1" type="button" name="przycis" value="Zadanie 4" onclick="WinOpen_Lysik4(' ')">Zadanie 4</button>
+<button class="btn btn1" type="button" name="przycis" value="Zadanie 5" onclick="WinOpen_Lysik5(' ')">Zadanie 5</button>
+
+ <h2>KOD CSS</h2>
+ 
+<button class="btn btn3" type="button" name="przycis" value="Kod 2" onclick="WinOpen_Lysika(' ')">Zadanie 2</button>
+<button class="btn btn3" type="button" name="przycis" value="Kod 3" onclick="WinOpen_Lysikb(' ')">Zadanie 3</button>
+<button class="btn btn3" type="button" name="przycis" value="Kod 4" onclick="WinOpen_Lysikc(' ')">Zadanie 4</button>
+<button class="btn btn3" type="button" name="przycis" value="Kod 5" onclick="WinOpen_Lysikd(' ')">Zadanie 5</button>
+</div>
+</div>
+</body>
+</html>
